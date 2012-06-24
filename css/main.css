@@ -148,6 +148,9 @@ p {
   .footer {
     margin-bottom: 10px;
   }
+  .twitter-links {
+    margin-bottom: 40px;
+  }
 } 
 
 @media only screen and (max-width: 320px) {
