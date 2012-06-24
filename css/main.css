@@ -110,6 +110,50 @@ p {
   color: #000;
 }
 
+
+/* #Media Queries
+================================================== */
+@media only screen and (max-width: 660px) {
+  .container {
+    width: 300px;
+    position: relative;
+    margin: 40px auto 20px;
+    top: auto;
+    left: auto;
+    overflow: hidden;
+    text-align: center;
+  }
+  .brick {
+    margin-bottom: 20px;
+    width: 300px;
+  }
+  .brick:before,
+  .brick:after {
+    width: 112px;
+  }
+  .content {
+    margin-left: 0;
+    width: 100%;
+  }
+  .footer,
+  .twitter-links {
+    text-align: center;
+    width: 300px;
+    margin: 0 auto;
+    position: relative;
+    bottom: auto;
+    right: auto;
+    left: auto;
+  }
+  .footer {
+    margin-bottom: 10px;
+  }
+} 
+
+@media only screen and (max-width: 320px) {
+
+}
+
 /* #Aniamtions
 ================================================== */
 /* Fade in down via Dan Eden (https://github.com/daneden/animate.css) */
