@@ -126,10 +126,7 @@ p {
   .brick {
     margin-bottom: 20px;
     width: 300px;
-  }
-  .brick:before,
-  .brick:after {
-    width: 112px;
+    display: none;
   }
   .content {
     margin-left: 0;
